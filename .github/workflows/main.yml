@@ -1,10 +1,13 @@
 name: Automated Infrastructure Lifecycle Management
 
-# Triggers the pipeline when code is pushed to the main branch
+# Triggers the pipeline when code is pushed to the main branch and only if changes are made to relevant directories (Terraform, Ansible, or GitHub Actions workflows). This optimizes the pipeline by avoiding unnecessary runs for unrelated changes.
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+    paths:
+      - '.github/**'
+      - 'terraform/**'
+      - 'ansible/**'
 
 # Required permissions for AWS OIDC authentication
 permissions:
