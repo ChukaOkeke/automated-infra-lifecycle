@@ -18,7 +18,7 @@ Follow these steps to deploy the automated infrastructure and configure the web 
 
 ```bash  
 git clone https://github.com/ChukaOkeke/automated-infra-lifecycle.git
-cd restaurant-api-k8s  
+cd automated-infra-lifecycle  
 ```
 
  3. Environment & Secret Configuration  
