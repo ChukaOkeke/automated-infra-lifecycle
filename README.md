@@ -49,7 +49,7 @@ git push origin <your-branch-name>
  - Keyless Cloud Authentication: Secure AWS access via OIDC, eliminating the risk of long-lived IAM credentials.
  - Remote State Management: Guaranteed "Source of Truth" using S3 for state storage and DynamoDB for state locking.
  - Dynamic Infrastructure Discovery: Automated server configuration using Ansible Dynamic Inventory to eliminate hardcoded IP addresses.
- - Infrastructure as Code (IaC): Reproducible environment provisioning via modular Terraform configurations.
+ - Infrastructure as Code (IaC): Reproducible environment provisioning via modular Terraform configurations.  
  - Continuous Deployment: Full lifecycle automation from code push to server configuration using GitHub Actions.
 
 
